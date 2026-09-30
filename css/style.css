@@ -1,0 +1,12 @@
+/* UNHINGED WARFARE — UI punk collage */
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;user-select:none}
+html,body{width:100%;height:100%;overflow:hidden;background:#0c0a12;font-family:'Arial Black','Arial Bold',Arial,sans-serif}
+#game{position:fixed;inset:0;width:100vw;height:100vh;touch-action:none;display:block;z-index:1;background:transparent}
+#game3d{position:fixed;inset:0;width:100vw;height:100vh;display:none;pointer-events:none;z-index:0}
+#fade{position:fixed;inset:0;background:#0c0a12;opacity:0;pointer-events:none;transition:opacity .18s;z-index:900}
+#fade.show{opacity:1}
+
+/* ---- Testo e titoli ---- */
+.t1{font-size:26px;color:#E8FF00;letter-spacing:2px}
+.t2{font-size:17px;color:#fff}
+.t3{font-size:13px;color:#888}
